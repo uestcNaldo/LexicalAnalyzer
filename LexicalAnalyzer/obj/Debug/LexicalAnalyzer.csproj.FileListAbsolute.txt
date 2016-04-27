@@ -1,1 +1,9 @@
 D:\Codes\LexicalAnalyzer\LexicalAnalyzer\bin\Debug\LexicalAnalyzer.exe.config
+D:\Codes\LexicalAnalyzer\LexicalAnalyzer\bin\Debug\LexicalAnalyzer.exe
+D:\Codes\LexicalAnalyzer\LexicalAnalyzer\bin\Debug\LexicalAnalyzer.pdb
+D:\Codes\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\LexicalAnalyzer.csprojResolveAssemblyReference.cache
+D:\Codes\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\LexicalAnalyzer.LA_UI.resources
+D:\Codes\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\LexicalAnalyzer.Properties.Resources.resources
+D:\Codes\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\LexicalAnalyzer.csproj.GenerateResource.Cache
+D:\Codes\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\LexicalAnalyzer.exe
+D:\Codes\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\LexicalAnalyzer.pdb

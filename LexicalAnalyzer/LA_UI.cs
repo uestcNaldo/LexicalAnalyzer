@@ -17,6 +17,25 @@ namespace LexicalAnalyzer {
         private void Form1_Load(object sender, EventArgs e) {
 
         }
-        
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e) {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e) {
+            OpenFileDialog FileDialog = new OpenFileDialog();
+            FileDialog.InitialDirectory = Application.StartupPath;
+            FileDialog.Filter = "All Files (*.*)|*.*|Pascal Files (*.pas)|*.pas";
+            FileDialog.FilterIndex = 2;
+            FileDialog.RestoreDirectory = true;
+            if (FileDialog.ShowDialog() == DialogResult.OK) {
+                string filePath = FileDialog.FileName;
+                string fileName = filePath.Substring(filePath.LastIndexOf("\\")+1);
+                Console.WriteLine("FilePath: "+filePath);
+                Console.WriteLine("FileName: "+fileName);
+
+            }
+        }
+
     }
 }
