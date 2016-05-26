@@ -31,11 +31,13 @@ namespace LexicalAnalyzer {
             if (FileDialog.ShowDialog() == DialogResult.OK) {
                 string filePath = FileDialog.FileName;
                 string fileName = filePath.Substring(filePath.LastIndexOf("\\")+1);
-                Console.WriteLine("FilePath: "+filePath);
-                Console.WriteLine("FileName: "+fileName);
+                
 
             }
         }
 
+        private void richTextBox1_TextChanged(object sender, EventArgs e) {
+            
+        }
     }
 }
